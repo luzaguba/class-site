@@ -1,3 +1,30 @@
 body{
-  background: lightblue;
+  background: pink;
+}
+
+ul{
+  font-family: monospace;
+  font-size: bold;
+
+}
+
+.name{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.main-container{
+  display: flex;
+  background-color: green;
+ justify-content: center;
+ align-items: center;
+}
+
+.main{
+  display: flex;
+  background-color: orange;
+  align-items: center;
+  justify-content: center;
 }
