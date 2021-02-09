@@ -8,6 +8,10 @@ ul{
 
 }
 
+h1{
+  text-align: center;
+}
+
 .name{
   display: flex;
   align-items: center;
@@ -27,4 +31,21 @@ ul{
   background-color: orange;
   align-items: center;
   justify-content: center;
+}
+
+.sketch{
+  padding-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.reading{
+  text-align: center;
+  /* background-color: green; */
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: Yuseimagic-regular;
+  font-size: 30px;
+
 }
