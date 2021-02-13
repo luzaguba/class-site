@@ -1,0 +1,18 @@
+body{
+  margin: 20px;
+  background: lightblue;
+  font-family: 'Gaegu', cursive;
+  font-size: 50px;
+}
+
+h1{
+font-family: 'Mansalva', cursive;
+
+}
+
+p{
+background: lightgreen;
+border-radius: 20px;
+filter: drop-shadow(30px 10px 4px #cfa3b6);
+
+}

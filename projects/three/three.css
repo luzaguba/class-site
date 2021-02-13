@@ -1,0 +1,41 @@
+body{
+  background: #a1bd48;
+}
+
+h1{
+  font-size: 80px;
+  font-family: 'Fredoka One', cursive;
+}
+
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+details > summary:hover{
+  color: pink;
+  cursor: pointer;
+}
+
+.main{
+  width: auto;
+  height: auto;
+  /* background: aqua; */
+  margin: auto;
+  padding: 10px;
+}
+
+.info{
+  width: 300px;
+  height: auto;
+  margin: auto;
+  float: left;
+  border: dotted;
+}
+
+.content{
+  margin-left: 350px;
+  height: auto;
+}

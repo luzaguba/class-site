@@ -5,7 +5,7 @@ body{
 ul{
   font-family: monospace;
   font-size: bold;
-
+  list-style: none;
 }
 
 h1{
@@ -16,21 +16,24 @@ h1{
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 40px;
+  text-align: center;
+  font-family: Yuseimagic-regular;
 
 }
 
 .main-container{
   display: flex;
-  background-color: green;
+  /* background-color: green; */
  justify-content: center;
  align-items: center;
 }
 
 .main{
   display: flex;
-  background-color: orange;
   align-items: center;
   justify-content: center;
+  text-decoration: none;
 }
 
 .sketch{

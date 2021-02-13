@@ -1,0 +1,15 @@
+body{
+  background: #e3b8cb;
+}
+
+.info{
+  /* background-color: green; */
+  text-align: center;
+  font-size: 50px;
+  padding: 10px;
+  position: relative;
+  transform: rotate(-4deg);
+  /* width: 900px;  */
+  /* height: 200px; */
+  /* border-radius: 50%; */
+}
