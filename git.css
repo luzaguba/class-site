@@ -9,8 +9,14 @@ ul{
 }
 
 a{
-  font-size: 15px;
+  font-size: 35px;
   text-decoration: none;
+  /* text-align: center */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  text-align: center;
 
 }
 
@@ -29,7 +35,7 @@ h1{
   justify-content: center;
   font-size: 40px;
   text-align: center;
-  font-family: Yuseimagic-regular;
+  font-family: 'Fredoka One', cursive;
 
 
 }
@@ -37,8 +43,9 @@ h1{
 .main-container{
   display: flex;
   /* background-color: green; */
- justify-content: center;
- /* align-items: center; */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .main{

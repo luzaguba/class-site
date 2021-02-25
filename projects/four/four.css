@@ -13,3 +13,8 @@ body{
   /* height: 200px; */
   /* border-radius: 50%; */
 }
+
+.content{
+  background: pink;
+  text-align: center;
+}
