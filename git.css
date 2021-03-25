@@ -22,6 +22,15 @@ width: 100%;
   padding: 20px;
 }
 
+.name {
+  /* background: pink; */
+  display: flex;
+  align-content: center;
+  width: 100%;
+  height: 33.3vh;
+}
+
+
 .content {
   display: flex;
   align-items: flex-start;
@@ -38,7 +47,7 @@ width: 100%;
   width: 100%;
   height: 33.3vh;
   border-radius: 50px;
-  font-family: 'Helvetica', sans-serif;
+  font-family: 'Syne Mono', monospace;
   /* text-align: center; */
   align-items: center;
   justify-content: center;
