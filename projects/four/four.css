@@ -15,6 +15,7 @@ body{
 }
 
 .content{
-  background: pink;
+  /* background: pink; */
   text-align: center;
+  font-family:'Fira Code', monospace;
 }

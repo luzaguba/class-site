@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin: 20px;
+}
+
+.btn {
+  background: pink;
+  cursor: pointer;
+  padding: 10px;
+  width: 80px;
+}
+
+.btn::selection {
+  display: none;
+  background: transparent;
+}
+
+.btn:hover {
+  background: blue;
+}
+
+#box {
+  height: 100%;
+  background: green;
+  position: fixed;
+  width: 100%;
+  max-width: 400px;
+  top:0;
+  right:0;
+  color: white;
+  font-size: 25px;
+  padding: 25px;
+  transition: transform .5s;
+
+}
+
+.active {
+  transform: translateX(-400px);
+}

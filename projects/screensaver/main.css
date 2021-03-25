@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  /* background: #afdb4f; */
+
+}
+
+.yeah{
+  padding: 30px;
+  text-align: center;
+}
+
+.frame {
+  /* background: pink; */
+  /* display: flex; */
+  /* justify-content: center; */
+  position: absolute;
+   top: 25%;
+   left: 35%
+
+}
+
+.face{
+  background: #f3fc49;
+  display: flex;
+  height: 400px;
+  width: 400px;
+  border-radius: 50%
+}
+
+.eye-left{
+  background: #c2b3ff;
+  position: absolute;
+    top:130px;
+    left: 80px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%
+}
+
+.eye-right{
+  background: #c2b3ff;
+  position: absolute;
+    top:130px;
+    right: 80px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%
+}
+
+.smile{
+  background: #c2b3ff;
+  position: absolute;
+    top: 260px;
+    left: 100px;
+  height: 40px;
+  width: 200px;
+  border-radius: 50px;
+  animation: talk 1s infinite alternate;
+  /* width: 80px;
+     height: 80px;
+     border-radius: 50%;
+     box-shadow: 0px 15px 0 0 red;
+  animation: mouth 1s infinite alternate; */
+}
+
+/* .face:hover .smile {
+  box-shadow: 0 -15px 0 0 red;
+} */
+
+.blush-left{
+  background: #fccd97;
+  position: absolute;
+    top:215px;
+    left: 45px;
+  height: 20px;
+  width: 50px;
+  border-radius: 50%;
+  animation: blur 2s 1s infinite;
+  -webkit-animation: blur 2s 1s infinite;
+  -moz-animation: blur 2s 1s infinite;
+}
+
+.blush-right{
+  background: #fccd97;
+  position: absolute;
+    top:215px;
+    right: 45px;
+  height: 20px;
+  width: 50px;
+  border-radius: 50%;
+  animation: blur 2s 1s infinite;
+  -webkit-animation: blur 2s 1s infinite;
+  -moz-animation: blur 2s 1s infinite;
+
+}
+
+/* @keyframes mouth {
+  0% {
+    box-shadow: 0 15px 0 0 red;
+  }
+  50%{
+      box-shadow: 0 0 0 15px red;
+  }
+  100% {
+  box-shadow: 0 -15px 0 0 red;
+  }
+} */
+
+@keyframes talk {
+  0%{
+    height: 40px;
+    width: 200px;
+    border-radius: 50px;
+  }
+  100%{
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    /* transform: translateX(50); */
+  }
+}
+
+@keyframes blur {
+  0%,
+  90% {
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px);
+    -ms-filter: blur(0px);
+  }
+  50% {
+    -webkit-filter: blur(50px);
+    -moz-filter: blur(50px);
+    -o-filter: blur(50px);
+    -ms-filter: blur(50px);
+  }
+}
+
+filter: blur(3px);
+-webkit-filter: blur(3px);
+-moz-filter: blur(3px);
+-o-filter: blur(3px);
+-ms-filter: blur(3px);
+filter: url(blur.svg#blur);
+filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='3');
